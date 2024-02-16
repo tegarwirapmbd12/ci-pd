@@ -1,0 +1,10 @@
+User-agent: *
+Disallow: /ckan/dataset/rate/
+Disallow: /ckan/dataset/*
+Disallow: /ckan/revision/
+Disallow: /ckan/dataset/*/history
+Disallow: /ckan/api/
+Disallow: /mazer/
+Disallow: /portal/
+Crawl-Delay: 100
+
