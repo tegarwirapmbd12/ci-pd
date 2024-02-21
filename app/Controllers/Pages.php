@@ -2,11 +2,13 @@
 
 namespace App\Controllers;
 
+use App\Models\Infografi;
+use App\Models\InfografiCategory;
 use CodeIgniter\API\ResponseTrait;
 use Config\Services;
 use Kint\Zval\Value;
 use App\Models\VisitorModel;
-
+use CodeIgniter\HTTP\Request;
 
 class Pages extends BaseController
 {
@@ -73,12 +75,17 @@ class Pages extends BaseController
         $judul['title'] = "home";
         $judul['activeMenu'] = "home";
         $visitorModel = new VisitorModel();
+        $model = new Infografi();
+        $infografis = $model->findAll();
+        $model2 = new InfografiCategory();
+        $infografi_categories = $model2->findAll();
+
 
         $data = [
             'title' => 'Home | Satu Data Kab. Semarang',
             'visitor' => $visitorModel->CountVisitor(),
         ];
-        return view('home/portal', ['data' => $data, 'judul' => $judul]);
+        return view('home/portal', ['data' => $data, 'judul' => $judul, 'infografis' => $infografis, 'infografi_categories' => $infografi_categories]);
     }
 
     public function dashboard()

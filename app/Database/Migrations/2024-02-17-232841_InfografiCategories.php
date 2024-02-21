@@ -4,7 +4,7 @@ namespace App\Database\Migrations;
 
 use CodeIgniter\Database\Migration;
 
-class Infografis extends Migration
+class InfografiCategories extends Migration
 {
     public function up()
     {
@@ -15,23 +15,10 @@ class Infografis extends Migration
                 'unsigned'       => true,
                 'auto_increment' => true,
             ],
-            'title' => [
+            'name' => [
                 'type'       => 'VARCHAR',
-                'constraint' => 255,
-            ],
-            'caption' => [
-                'type'       => 'VARCHAR',
-                'constraint' => 255,
-                'null'       => true,
-            ],
-            'image' => [
-                'type'       => 'VARCHAR',
-                'constraint' => 255,
-            ],
-            'infograficategory_id' => [
-                'type'       => 'INT',
-                'constraint' => 5,
-                'unsigned'   => true,
+                'constraint' => 100,
+                'unique'     => true,
             ],
             'created_at' => [
                 'type' => 'TIMESTAMP',
@@ -44,13 +31,11 @@ class Infografis extends Migration
         ]);
 
         $this->forge->addKey('id', true);
-        $this->forge->addForeignKey('infograficategory_id', 'InfografiCategories', 'id');
-        $this->forge->createTable('Infografis');
+        $this->forge->createTable('infografi_categories');
     }
-    
 
     public function down()
     {
-        $this->forge->dropTable('Infografis');
+        $this->forge->dropTable('infografi_categories');
     }
 }

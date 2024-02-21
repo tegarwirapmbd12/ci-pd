@@ -4,7 +4,7 @@ namespace App\Database\Migrations;
 
 use CodeIgniter\Database\Migration;
 
-class InfografiCategories extends Migration
+class Contoh extends Migration
 {
     public function up()
     {
@@ -31,11 +31,11 @@ class InfografiCategories extends Migration
         ]);
 
         $this->forge->addKey('id', true);
-        $this->forge->createTable('InfografiCategories');
+        $this->forge->createTable('contoh');
     }
 
     public function down()
     {
-        $this->forge->dropTable('InfografiCategories');
+        $this->forge->dropTable('contoh');
     }
 }

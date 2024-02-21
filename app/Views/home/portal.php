@@ -9,7 +9,7 @@
     <meta content="" name="description">
 
     <!-- Favicon -->
-    <link href="<?= base_url() ?>portal/img/bitmap22.ico" rel="icon">
+    <link href="portal/img/bitmap22.ico" rel="icon">
 
     <!-- Google Web Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -21,79 +21,22 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
 
     <!-- Libraries Stylesheet -->
-    <link href="<?= base_url() ?>portal/lib/animate/animate.min.css" rel="stylesheet">
-    <link href="<?= base_url() ?>portal/lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
-    <link href="<?= base_url() ?>portal/lib/tempusdominus/css/tempusdominus-bootstrap-4.min.css" rel="stylesheet" />
+    <link href="portal/lib/animate/animate.min.css" rel="stylesheet">
+    <link href="portal/lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+    <link href="portal/lib/tempusdominus/css/tempusdominus-bootstrap-4.min.css" rel="stylesheet" />
 
     <!-- Customized Bootstrap Stylesheet -->
-    <link href="<?= base_url() ?>portal/css/bootstrap.min.css" rel="stylesheet">
+    <link href="portal/css/bootstrap.min.css" rel="stylesheet">
 
     <!-- Template Stylesheet -->
-    <link href="<?= base_url() ?>portal/css/style.css" rel="stylesheet">
+    <link href="portal/css/style.css" rel="stylesheet">
 
     <!-- CSS Added -->
     <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous"> -->
     <style>
-        .modal-dialog .input-group #search-input {
-        border-radius: 20px 0 0 20px;
-        border: none;
-        } 
-        .modal-dialog .input-group #search-button {
-        border-radius: 0 20px 20px 0;
-        background-color: #FEA116;
-        border: none;
-        } 
-        ul {
-            list-style-type: none;
-            padding: 0;
-            text-align: center; /* Center the text in the <ul> */
-        }
-
-        /* Style for each list item */
-        li {
-            display: inline-block;
-            padding: 10px; 
-        }
-        li:hover{
-            color:#FEA116;
-            cursor: pointer;
-            margin-bottom: 1px solid #FEA116;
-        }
+        
     </style>
 </head>
-
-<style>
-    /* CSS for modal */
-    /* .modal {
-  display: none;alamat
-  position: fixed;
-  z-index: 1;
-  padding-top: 100px;
-  left: 0;
-  top: 0;
-  width: 100%;
-  height: 100%;
-  overflow: auto;
-  background-color: rgba(0, 0, 0, 0.9);
-}
-
-.modal-content {
-  display: block;
-  margin: 0 auto;
-  max-width: 90%;
-  max-height: 90%;
-}
-
-.close {
-  position: absolute;
-  top: 15px;
-  right: 35px;
-  color: #f1f1f1;
-  font-size: 40px;
-  font-weight: bold;
-  cursor: pointer;
-} */
-</style>
 
 <body>
     <div class="container-xxl bg-white p-0">
@@ -111,7 +54,7 @@
             <nav class="navbar navbar-expand-lg navbar-dark bg-dark px-4 px-lg-5 py-3 py-lg-0">
                 <a href="" class="navbar-brand p-0">
 
-                    <h4 class="text-primary m-0"><img src="<?= base_url() ?>portal/img/logo3.png" alt="Logo"> Kabupaten Semarang</h4>
+                    <h4 class="text-primary m-0"><img src="portal/img/logo3.png" alt="Logo"> Kabupaten Semarang</h4>
 
                 </a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
@@ -154,9 +97,9 @@
                             <a href="https://data.semarangkab.go.id/dashboard" target="_blank" class="btn btn-primary py-sm-3 px-sm-5 me-3 animated slideInLeft">Dashboard</a>
                         </div>
                         <div class="col-lg-5 text-center text-lg-end overflow-hidden" style="position: relative; display: inline; ">
-                            <img class="img-fluid" src="<?= base_url() ?>portal/img/background92.png" alt="" style="width: 200%;">
+                            <img class="img-fluid" src="portal/img/background92.png" alt="" style="width: 200%;">
                             <!-- <a href="#">Image by GarryKillian</a> on Freepik -->
-                            <img class="img-fluid" src="<?= base_url() ?>portal/img/maskott.png" alt="" style="animation: none !important; position: absolute; bottom: 0; right: 20px; height: 100%;">
+                            <img class="img-fluid" src="portal/img/maskott.png" alt="" style="animation: none !important; position: absolute; bottom: 0; right: 20px; height: 100%;">
                         </div>
                     </div>
                 </div>
@@ -175,7 +118,7 @@
                     <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
                         <div class="team-item text-center rounded overflow-hidden">
                             <div class="rounded-circle overflow-hidden m-4">
-                                <a href="https://data.semarangkab.go.id/satupeta/petadua" target="_blank"><img class="img-fluid" src="<?= base_url() ?>portal/img/satupeta.png" alt=""></a>
+                                <a href="https://data.semarangkab.go.id/satupeta/petadua" target="_blank"><img class="img-fluid" src="portal/img/satupeta.png" alt=""></a>
                             </div>
                             <h5 class="mb-0">Satu Peta</h5>
                             <small>Kabupaten Semarang</small>
@@ -189,7 +132,7 @@
                     <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
                         <div class="team-item text-center rounded overflow-hidden">
                             <div class="rounded-circle overflow-hidden m-4">
-                                <a href="http://gis.semarangkab.go.id/" target="_blank"><img class="img-fluid" src="<?= base_url() ?>portal/img/big.png" alt=""></a>
+                                <a href="http://gis.semarangkab.go.id/" target="_blank"><img class="img-fluid" src="portal/img/big.png" alt=""></a>
                             </div>
                             <h5 class="mb-0">Geoportal</h5>
                             <small>Kabupaten Semarang</small>
@@ -203,7 +146,7 @@
                     <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
                         <div class="team-item text-center rounded overflow-hidden">
                             <div class="rounded-circle overflow-hidden m-4">
-                                <a href="https://statistikkominfo.semarangkab.go.id/" target="_blank"><img class="img-fluid" src="<?= base_url() ?>portal/img/logobulat.png" alt=""></a>
+                                <a href="https://statistikkominfo.semarangkab.go.id/" target="_blank"><img class="img-fluid" src="portal/img/logobulat.png" alt=""></a>
                             </div>
                             <h5 class="mb-0">Statistik Sektoral</h5>
                             <small>Kabupaten Semarang</small>
@@ -217,7 +160,7 @@
                     <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.7s">
                         <div class="team-item text-center rounded overflow-hidden">
                             <div class="rounded-circle overflow-hidden m-4">
-                                <a href="https://data.semarangkab.go.id/bps" target="_blank"><img class="img-fluid" src="<?= base_url() ?>portal/img/bps.png" alt=""></a>
+                                <a href="https://data.semarangkab.go.id/bps" target="_blank"><img class="img-fluid" src="portal/img/bps.png" alt=""></a>
                             </div>
                             <h5 class="mb-0">BPS</h5>
                             <small>Kabupaten Semarang</small>
@@ -232,192 +175,35 @@
             </div>
         </div>
         <!-- Team End -->
+        
+        
+        
         <!-- Testimonial Start -->
         <div id="publikasi" class="container-xxl py-5 wow fadeInUp" data-wow-delay="0.1s">
             <div class="container">
                 <div class="text-center">
                     <h5 class="section-title ff-secondary text-center text-primary fw-normal">Publikasi</h5>
                     <h1 class="mb-5">INFOGRAFIS</h1>
-                     <ul id="category-list">
-                        <li>ALL</li>
-                        <li data-bs-category="inflasi" >INFLASI</li>
-                        <li>EKSPOR</li>
-                        <li>IMPOR</li>
-                        <li>NILAI TUKAR PETANI</li>
-                        <li>INDEKS DEMOKRASI INDONESIA</li>
-                        <li>TINGKAT PARTISIPASI ANGKATAN KERJA</li>
-                        <li>TINGKAT PENGANGGURAN TERBUKA</li>
-                        <li>PERTUMBUHAN EKONOMI</li>
-                        <li>KEMISKINAN</li>
-                        <li>PARIWISATA</li>
-                        <li>HIDROLOGI</li>
-                        <li>TATA RUANG</li>
-                        <li>HIPSOGRAFI</li>
-                        <li>UTILITAS</li>
-                        <li>TRANSPORTASI</li>
-                        <li>TANAH</li>
-                        <li>INDEX PEMBANGUNAN MANUSIA</li>
-                        <li>GINI RATIO</li>
+                     <ul id="filter">
+                        <li><span class="" data-filter=".1, .2, .3, .4, .5, .6, .7, .8, .9, .10, .11, .12, .13">ALL</span></li>
+                        <?php foreach ($infografi_categories as $infografi_category) : ?>
+                        <li><span class="filter" data-filter="<?= $infografi_category['id'] ?>"><?= $infografi_category['name'] ?></span></li>
+                        <?php endforeach; ?>
                     </ul>
                 </div>
                 <hr>
                 <div class="owl-carousel testimonial-carousel carousel slide" id="carouselExampleControls" data-bs-ride="carousel">
-					<div class="testimonial-item bg-transparent border rounded p-4 img-item">
+                <?php foreach ($infografis as $infografi) : ?>
+                    <div class="testimonial-item bg-transparent border rounded p-4 img-item" data-cat="<?= $infografi['infograficategory_id'] ?>">
                         <div class="d-flex align-items-center">
-                            <img class="img-fluid flex-shrink-0" src="<?= base_url() ?>portal/img/wisata11des.png" style="width: 300px; height: 400px;" download>
-                            <br>
-                        </div>
-                        <p class="text-center">Sumber: Pemerintah Kab. Semarang</p>
-                    </div>
-					<div class="testimonial-item bg-transparent border rounded p-4 img-item">
-                        <div class="d-flex align-items-center">
-                            <img class="img-fluid flex-shrink-0" src="<?= base_url() ?>portal/img/tani_bps.jpeg" style="width: 300px; height: 400px;" download>
-                            <br>
+                            <img class="img-fluid flex-shrink-0" src="<?= $infografi['image'] ?>" style="width: 300px; height: 400px;">
+                            <div class="label">
+                                <div class="label-bg"></div>
+                            </div>
                         </div>
                         <p class="text-center">Sumber: BPS Kab.Semarang</p>
                     </div>
-					<div class="testimonial-item bg-transparent border rounded p-4 img-item">
-                        <div class="d-flex align-items-center">
-                            <img class="img-fluid flex-shrink-0" src="<?= base_url() ?>portal/img/skd_bps.jpeg" style="width: 300px; height: 400px;" download>
-                            <br>
-                        </div>
-                        <p class="text-center">Sumber: BPS Kab.Semarang</p>
-                    </div>
-					<div class="testimonial-item bg-transparent border rounded p-4 img-item">
-                        <div class="d-flex align-items-center">
-                            <img class="img-fluid flex-shrink-0" src="<?= base_url() ?>portal/img/peminjam-buku.png" style="width: 300px; height: 400px;" download>
-                            <br>
-                        </div>
-                        <p class="text-center">Sumber: Pemerintah Kab. Semarang</p>
-                    </div>
-					
-					<div class="testimonial-item bg-transparent border rounded p-4 img-item">
-                        <div class="d-flex align-items-center">
-                            <img class="img-fluid flex-shrink-0" src="<?= base_url() ?>portal/img/jumlah_angkutan.png" style="width: 300px; height: 400px;" download>
-                            <br>
-                        </div>
-                        <p class="text-center">Sumber: Pemerintah Kab. Semarang</p>
-                    </div>
-					<div class="testimonial-item bg-transparent border rounded p-4 img-item">
-                        <div class="d-flex align-items-center">
-                            <img class="img-fluid flex-shrink-0" src="<?= base_url() ?>portal/img/jumlah_satlinmas.png" style="width: 300px; height: 400px;" download>
-                            <br>
-                        </div>
-                        <p class="text-center">Sumber: Pemerintah Kab. Semarang</p>
-                    </div>
-                    <div class="testimonial-item bg-transparent border rounded p-4 img-item">
-                        <div class="d-flex align-items-center">
-                            <img class="img-fluid flex-shrink-0" src="<?= base_url() ?>portal/img/bps1.jpeg" style="width: 300px; height: 400px;" download>
-                            <br>
-                        </div>
-                        <p class="text-center">Sumber: BPS Kab.Semarang</p>
-                    </div>
-                    <div class="testimonial-item bg-transparent border rounded p-4 img-item">
-                        <div class="d-flex align-items-center">
-                            <img class="img-fluid flex-shrink-0" src="<?= base_url() ?>portal/img/kemiskinan.jpeg" style="width: 300px; height: 400px;">
-                            <br>
-                        </div>
-                        <p class="text-center">Sumber: BPS Kab.Semarang</p>
-                    </div>
-                    <div class="testimonial-item bg-transparent border rounded p-4 img-item">
-                        <div class="d-flex align-items-center">
-                            <img class="img-fluid flex-shrink-0" src="<?= base_url() ?>portal/img/jumlah-wisatawan.jpeg" style="width: 300px; height: 400px;">
-                            <br>
-                        </div>
-                        <p class="text-center">Sumber: BPS Kab.Semarang</p>
-                    </div>
-                    <div class="testimonial-item bg-transparent border rounded p-4 img-item">
-                        <div class="d-flex align-items-center">
-                            <img class="img-fluid flex-shrink-0" src="<?= base_url() ?>portal/img/luas-tanam.jpeg" style="width: 300px; height: 400px;">
-                            <br>
-                        </div>
-                        <p class="text-center">Sumber: BPS Kab.Semarang</p>
-                    </div>
-
-                    <div class="testimonial-item bg-transparent border rounded p-4 img-item">
-                        <div class="d-flex align-items-center">
-                            <img class="img-fluid flex-shrink-0 zoomable-image" src="<?= base_url() ?>portal/img/KEBAKARAN.png" style="width: 300px; height: 400px;">
-                            <br>
-                        </div>
-                        <p class="text-center">Sumber: Pemerintah Kab. Semarang</p>
-                    </div>
-                    <div class="testimonial-item bg-transparent border rounded p-4 img-item">
-                        <div class="d-flex align-items-center">
-                            <img class="img-fluid flex-shrink-0" src="<?= base_url() ?>portal/img/CAPAIAN12.png" style="width: 300px; height: 400px;">
-                            <br>
-                        </div>
-                        <p class="text-center">Sumber: Pemerintah Kab. Semarang</p>
-                    </div>
-                    <div class="testimonial-item bg-transparent border rounded p-4 img-item">
-                        <div class="d-flex align-items-center">
-                            <img class="img-fluid flex-shrink-0" src="<?= base_url() ?>portal/img/KEKERINGAN.png" style="width: 300px; height: 400px;">
-                            <br>
-                        </div>
-                        <p class="text-center">Sumber: Pemerintah Kab. Semarang</p>
-                    </div>
-                    <div class="testimonial-item bg-transparent border rounded p-4 img-item">
-                        <div class="d-flex align-items-center">
-                            <img class="img-fluid flex-shrink-0" src="<?= base_url() ?>portal/img/GLOBAL.png" style="width: 300px; height: 400px;">
-                            <br>
-                        </div>
-                        <p class="text-center">Sumber: Pemerintah Kab. Semarang</p>
-                    </div>
-                    <div class="testimonial-item bg-transparent border rounded p-4 img-item">
-                        <div class="d-flex align-items-center">
-                            <img class="img-fluid flex-shrink-0" src="<?= base_url() ?>portal/img/PUTING BELIUNG.png" style="width: 300px; height: 400px;">
-                            <br>
-                        </div>
-                        <p class="text-center">Sumber: Pemerintah Kab. Semarang</p>
-                    </div>
-                    <div class="testimonial-item bg-transparent border rounded p-4 img-item">
-                        <div class="d-flex align-items-center">
-                            <img class="img-fluid flex-shrink-0" src="<?= base_url() ?>portal/img/TANAH LONGSOR.png" style="width: 300px; height: 400px;">
-                            <br>
-                        </div>
-                        <p class="text-center">Sumber: Pemerintah Kab. Semarang</p>
-                    </div>
-                    <div class="testimonial-item bg-transparent border rounded p-4 img-item">
-                        <div class="d-flex align-items-center">
-                            <img class="img-fluid flex-shrink-0" src="<?= base_url() ?>portal/img/Rumah_Sakit1.png" style="width: 300px; height: 400px;">
-                            <br>
-                        </div>
-                        <p class="text-center">Sumber: Pemerintah Kab. Semarang</p>
-                    </div>
-                    <div class="testimonial-item bg-transparent border rounded p-4 img-item">
-                        <div class="d-flex align-items-center">
-                            <img class="img-fluid flex-shrink-0" src="<?= base_url() ?>portal/img/taman2.png" style="width: 300px; height: 400px;">
-                            <br>
-                        </div>
-                        <p class="text-center">Sumber: Pemerintah Kab. Semarang</p>
-                    </div>
-                    <div class="testimonial-item bg-transparent border rounded p-4 img-item">
-                        <div class="d-flex align-items-center">
-                            <img class="img-fluid flex-shrink-0" src="<?= base_url() ?>portal/img/taman1.png" style="width: 300px; height: 400px;">
-                            <br>
-                        </div>
-                        <p class="text-center">Sumber: Pemerintah Kab. Semarang</p>
-                    </div>
-                    <div class="testimonial-item bg-transparent border rounded p-4 img-item">
-                        <div class="d-flex align-items-center">
-                            <img class="img-fluid flex-shrink-0" src="<?= base_url() ?>portal/img/taman3.png" style="width: 300px; height: 400px;">
-                            <br>
-                        </div>
-                        <p class="text-center">Sumber: Pemerintah Kab. Semarang</p>
-                    </div>
-                    <div class="testimonial-item bg-transparent border rounded p-4 img-item">
-                        <div class="d-flex align-items-center">
-                            <img class="img-fluid flex-shrink-0" src="<?= base_url() ?>portal/img/jumlah_pedagang.png" style="width: 300px; height: 400px;">
-                            <br>
-                        </div>
-                        <p class="text-center">Sumber: Pemerintah Kab. Semarang</p>
-                    </div>
-                    <div class="testimonial-item bg-transparent border rounded p-4 img-item">
-                        <div class="d-flex align-items-center">
-                            <img class="img-fluid flex-shrink-0" src="<?= base_url() ?>portal/img/pengunjung_wisata.png" style="width: 300px; height: 400px;">
-                            <br>
-                        </div>
-                        <p class="text-center">Sumber: Pemerintah Kab. Semarang</p>
-                    </div>
+                <?php endforeach; ?>
                    
                    
                 </div>
@@ -425,16 +211,64 @@
         </div>
         <!-- Testimonial End -->
 
+        <!-- EKSPERIMEN ANIMASI -->
+    <div class="container">
+        <ul id="filters" class="clearfix">
+        <li><span class="filter active" data-filter=".1, .2, .3, .4, .5, .6, .7, .8, .9, .10, .11, .12, .13">All</span></li>
+        <?php foreach ($infografi_categories as $infografi_category) : ?>
+        <li><span class="filter" data-filter=".<?= $infografi_category['id'] ?>"><?= $infografi_category['name'] ?></span></li>
+        <?php endforeach; ?>
+        </ul>
+      
+      
+      <div id="portfoliolist"> <!-- portofolios -->
+      <?php foreach ($infografis as $infografi) : ?>  
+        <div class="portfolio <?= $infografi['infograficategory_id'] ?>" data-cat="<?= $infografi['infograficategory_id'] ?>"> 	<!-- <div class="col-md-4 col-sm-6 portfolio web-design"> -->
+            <div class="portfolio-wrapper">  <!-- <figure class="portfolio-image"> -->
+            <img src="<?= $infografi['image'] ?>" alt="" style="width: 300px; height: 300px;"> <!-- <img src="images/work/work-1.jpg" alt="" class="img-responsive"> -->
+                <div class="label"> <!-- <figcaption class="caption text-center"> -->
+                    <div class="label-text"> <!-- <div class="caption-content"> -->
+                    <a class="text-title"><?= $infografi['title'] ?></a> 	
+                    <!-- <ul class="portfolio-link">
+						<li><a href="#"><i class="fa fa-link" aria-hidden="true"></i></a></li>
+						<li><a href="#"><i class="fa fa-plus" aria-hidden="true"></i></a></li>
+					</ul> -->
+                    </div>
+                    <!-- <div class="label-bg"></div> -->
+                </div>
+            </div>
+        </div>
+    <?php endforeach; ?>
+      </div>
+    </div>
+
+
+		
+			
+			
+				
+				
+					
+				</div>
+			</figcaption>
+		</figure>
+	</div>
+        <!-- EKSEPRIMEN ANIMASI END -->
+
+
+
+
+
         <!-- <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
   <div class="carousel-inner">
     <div class="carousel-item active">
-      <img src="<?= base_url() ?>portal/img/jumlah_pedagang.png" class="d-block w-100" alt="..." style="width: 300px; height: 400px;">
+      <img src="portal/img/jumlah_pedagang.png" class="d-block w-100" alt="..." style="width: 300px; height: 400px;">
     </div>
     <div class="carousel-item">
-      <img src="<?= base_url() ?>portal/img/jumlah_pedagang.png" class="d-block w-100" alt="..." style="width: 300px; height: 400px;">
+      <img src="portal/img/jumlah_pedagang.png" class="d-block w-100" alt="..." style="width: 300px; height: 400px;">
     </div>
     <div class="carousel-item">
-      <img src="<?= base_url() ?>portal/img/jumlah_pedagang.png" class="d-block w-100" alt="..." style="width: 300px; height: 400px;">
+      <img src="portal/img/jumlah_pedagang.png" class="d-block w-100" alt="..." style="width: 300px; height: 400px;">
     </div>
   </div>
   <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
@@ -456,65 +290,65 @@
                 </div>
                 <div class="owl-carousel testimonial-carousel">
                     
-					<div class="testimonial-item bg-transparent border rounded p-4 pdf-item"  data-pdf="<?= base_url() ?>portal/img/BukuStatistik23.pdf">
+					<div class="testimonial-item bg-transparent border rounded p-4 pdf-item"  data-pdf="portal/img/BukuStatistik23.pdf">
                         <div class="d-flex align-items-center">
-                            <img class="img-fluid flex-shrink-0" src="<?= base_url() ?>portal/img/St23.png" style="width: 300px; height: 400px;" download>
+                            <img class="img-fluid flex-shrink-0" src="portal/img/St23.png" style="width: 300px; height: 400px;" download>
                             <br>
                         </div>
                         <p class="text-center">Sumber: Pemerintah Kab. Semarang</p>
                     </div>
 
-                    <div class="testimonial-item bg-transparent border rounded p-4 pdf-item" data-pdf="<?= base_url() ?>portal/img/Buku4th23.pdf" >
+                    <div class="testimonial-item bg-transparent border rounded p-4 pdf-item" data-pdf="portal/img/Buku4th23.pdf" >
                         <div class="d-flex align-items-center">
-                            <img class="img-fluid flex-shrink-0" src="<?= base_url() ?>portal/img/Buku4th23.jpg" style="width: 300px; height: 400px;" download>
+                            <img class="img-fluid flex-shrink-0" src="portal/img/Buku4th23.jpg" style="width: 300px; height: 400px;" download>
                             <br>
                         </div>
                         <p class="text-center">Sumber: Pemerintah Kab. Semarang</p>
                     </div>
 
-                    <div class="testimonial-item bg-transparent border rounded p-4 pdf-item" data-pdf="<?= base_url() ?>portal/img/Buku1th23.pdf">
+                    <div class="testimonial-item bg-transparent border rounded p-4 pdf-item" data-pdf="portal/img/Buku1th23.pdf">
                         <div class="d-flex align-items-center">
-                            <img class="img-fluid flex-shrink-0" src="<?= base_url() ?>portal/img/Buku1th23.jpg" style="width: 300px; height: 400px;" download>
+                            <img class="img-fluid flex-shrink-0" src="portal/img/Buku1th23.jpg" style="width: 300px; height: 400px;" download>
                             <br>
                         </div>
                         <p class="text-center">Sumber: Pemerintah Kab. Semarang</p>
                     </div>
             
-                    <div class="testimonial-item bg-transparent border rounded p-4 pdf-item" data-pdf="<?= base_url() ?>portal/img/Buku2th23.pdf">
+                    <div class="testimonial-item bg-transparent border rounded p-4 pdf-item" data-pdf="portal/img/Buku2th23.pdf">
                         <div class="d-flex align-items-center">
-                            <img class="img-fluid flex-shrink-0" src="<?= base_url() ?>portal/img/Buku2th23.jpg" style="width: 300px; height: 400px;" download>
+                            <img class="img-fluid flex-shrink-0" src="portal/img/Buku2th23.jpg" style="width: 300px; height: 400px;" download>
                             <br>
                         </div>
                         <p class="text-center">Sumber: Pemerintah Kab. Semarang</p>
                     </div>
 
-                    <div class="testimonial-item bg-transparent border rounded p-4 pdf-item" data-pdf="<?= base_url() ?>portal/img/Buku3th23.pdf">
+                    <div class="testimonial-item bg-transparent border rounded p-4 pdf-item" data-pdf="portal/img/Buku3th23.pdf">
                         <div class="d-flex align-items-center">
-                            <img class="img-fluid flex-shrink-0" src="<?= base_url() ?>portal/img/Buku3th23.jpg" style="width: 300px; height: 400px;" download>
+                            <img class="img-fluid flex-shrink-0" src="portal/img/Buku3th23.jpg" style="width: 300px; height: 400px;" download>
                             <br>
                         </div>
                         <p class="text-center">Sumber: Pemerintah Kab. Semarang</p>
                     </div>
 
-                    <div class="testimonial-item bg-transparent border rounded p-4 pdf-item" data-pdf="<?= base_url() ?>portal/img/Buku5th23.pdf">
+                    <div class="testimonial-item bg-transparent border rounded p-4 pdf-item" data-pdf="portal/img/Buku5th23.pdf">
                         <div class="d-flex align-items-center">
-                            <img class="img-fluid flex-shrink-0" src="<?= base_url() ?>portal/img/Buku5th23.jpg" style="width: 300px; height: 400px;" download>
+                            <img class="img-fluid flex-shrink-0" src="portal/img/Buku5th23.jpg" style="width: 300px; height: 400px;" download>
                             <br>
                         </div>
                         <p class="text-center">Sumber: Pemerintah Kab. Semarang</p>
                     </div>
                 
-                    <div class="testimonial-item bg-transparent border rounded p-4 pdf-item" data-pdf="<?= base_url() ?>portal/img/BukuStatistikTh22.pdf">
+                    <div class="testimonial-item bg-transparent border rounded p-4 pdf-item" data-pdf="portal/img/BukuStatistikTh22.pdf">
                         <div class="d-flex align-items-center">
-                            <img class="img-fluid flex-shrink-0" src="<?= base_url() ?>portal/img/BukuStatistikTh22.jpg" style="width: 300px; height: 400px;" download>
+                            <img class="img-fluid flex-shrink-0" src="portal/img/BukuStatistikTh22.jpg" style="width: 300px; height: 400px;" download>
                             <br>
                         </div>
                         <p class="text-center">Sumber: Pemerintah Kab. Semarang</p>
                     </div>
 
-                    <div class="testimonial-item bg-transparent border rounded p-4 pdf-item" data-pdf="<?= base_url() ?>portal/img/BUKU-METADATA-STATISTIK-SEKTORAL.pdf">
+                    <div class="testimonial-item bg-transparent border rounded p-4 pdf-item" data-pdf="portal/img/BUKU-METADATA-STATISTIK-SEKTORAL.pdf">
                         <div class="d-flex align-items-center">
-                            <img class="img-fluid flex-shrink-0" src="<?= base_url() ?>portal/img/METADATA-STATISTIK-SEKTORAL.png" style="width: 300px; height: 400px;" download>
+                            <img class="img-fluid flex-shrink-0" src="portal/img/METADATA-STATISTIK-SEKTORAL.png" style="width: 300px; height: 400px;" download>
                             <br>
                         </div>
                         <p class="text-center">Sumber: Pemerintah Kab. Semarang</p>
@@ -581,16 +415,16 @@
                     <div class="col-lg-6">
                         <div class="row g-3">
                             <div class="col-6 text-start">
-                                <img class="img-fluid rounded w-100 wow zoomIn" data-wow-delay="0.1s" src="<?= base_url() ?>portal/img/about-1.jpg">
+                                <img class="img-fluid rounded w-100 wow zoomIn" data-wow-delay="0.1s" src="portal/img/about-1.jpg">
                             </div>
                             <div class="col-6 text-start">
-                                <img class="img-fluid rounded w-75 wow zoomIn" data-wow-delay="0.3s" src="<?= base_url() ?>portal/img/about-2.jpg" style="margin-top: 25%;">
+                                <img class="img-fluid rounded w-75 wow zoomIn" data-wow-delay="0.3s" src="portal/img/about-2.jpg" style="margin-top: 25%;">
                             </div>
                             <div class="col-6 text-end">
-                                <img class="img-fluid rounded w-75 wow zoomIn" data-wow-delay="0.5s" src="<?= base_url() ?>portal/img/about-3.jpg">
+                                <img class="img-fluid rounded w-75 wow zoomIn" data-wow-delay="0.5s" src="portal/img/about-3.jpg">
                             </div>
                             <div class="col-6 text-end">
-                                <img class="img-fluid rounded w-100 wow zoomIn" data-wow-delay="0.7s" src="<?= base_url() ?>portal/img/about-4.jpg">
+                                <img class="img-fluid rounded w-100 wow zoomIn" data-wow-delay="0.7s" src="portal/img/about-4.jpg">
                             </div>
                         </div>
                     </div>
@@ -669,7 +503,7 @@
                             <div class="row g-4">
                                 <div class="col-lg-6">
                                     <div class="d-flex align-items-center">
-                                        <img class="flex-shrink-0 img-fluid rounded" src="<?= base_url() ?>portal/img/menu-1.jpg" alt="" style="width: 80px;">
+                                        <img class="flex-shrink-0 img-fluid rounded" src="portal/img/menu-1.jpg" alt="" style="width: 80px;">
                                         <div class="w-100 d-flex flex-column text-start ps-4">
                                             <h5 class="d-flex justify-content-between border-bottom pb-2">
                                                 <span>Chicken Burger</span>
@@ -681,7 +515,7 @@
                                 </div>
                                 <div class="col-lg-6">
                                     <div class="d-flex align-items-center">
-                                        <img class="flex-shrink-0 img-fluid rounded" src="<?= base_url() ?>portal/img/menu-2.jpg" alt="" style="width: 80px;">
+                                        <img class="flex-shrink-0 img-fluid rounded" src="portal/img/menu-2.jpg" alt="" style="width: 80px;">
                                         <div class="w-100 d-flex flex-column text-start ps-4">
                                             <h5 class="d-flex justify-content-between border-bottom pb-2">
                                                 <span>Chicken Burger</span>
@@ -693,7 +527,7 @@
                                 </div>
                                 <div class="col-lg-6">
                                     <div class="d-flex align-items-center">
-                                        <img class="flex-shrink-0 img-fluid rounded" src="<?= base_url() ?>portal/img/menu-3.jpg" alt="" style="width: 80px;">
+                                        <img class="flex-shrink-0 img-fluid rounded" src="portal/img/menu-3.jpg" alt="" style="width: 80px;">
                                         <div class="w-100 d-flex flex-column text-start ps-4">
                                             <h5 class="d-flex justify-content-between border-bottom pb-2">
                                                 <span>Chicken Burger</span>
@@ -705,7 +539,7 @@
                                 </div>
                                 <div class="col-lg-6">
                                     <div class="d-flex align-items-center">
-                                        <img class="flex-shrink-0 img-fluid rounded" src="<?= base_url() ?>portal/img/menu-4.jpg" alt="" style="width: 80px;">
+                                        <img class="flex-shrink-0 img-fluid rounded" src="portal/img/menu-4.jpg" alt="" style="width: 80px;">
                                         <div class="w-100 d-flex flex-column text-start ps-4">
                                             <h5 class="d-flex justify-content-between border-bottom pb-2">
                                                 <span>Chicken Burger</span>
@@ -717,7 +551,7 @@
                                 </div>
                                 <div class="col-lg-6">
                                     <div class="d-flex align-items-center">
-                                        <img class="flex-shrink-0 img-fluid rounded" src="<?= base_url() ?>portal/img/menu-5.jpg" alt="" style="width: 80px;">
+                                        <img class="flex-shrink-0 img-fluid rounded" src="portal/img/menu-5.jpg" alt="" style="width: 80px;">
                                         <div class="w-100 d-flex flex-column text-start ps-4">
                                             <h5 class="d-flex justify-content-between border-bottom pb-2">
                                                 <span>Chicken Burger</span>
@@ -729,7 +563,7 @@
                                 </div>
                                 <div class="col-lg-6">
                                     <div class="d-flex align-items-center">
-                                        <img class="flex-shrink-0 img-fluid rounded" src="<?= base_url() ?>portal/img/menu-6.jpg" alt="" style="width: 80px;">
+                                        <img class="flex-shrink-0 img-fluid rounded" src="portal/img/menu-6.jpg" alt="" style="width: 80px;">
                                         <div class="w-100 d-flex flex-column text-start ps-4">
                                             <h5 class="d-flex justify-content-between border-bottom pb-2">
                                                 <span>Chicken Burger</span>
@@ -741,7 +575,7 @@
                                 </div>
                                 <div class="col-lg-6">
                                     <div class="d-flex align-items-center">
-                                        <img class="flex-shrink-0 img-fluid rounded" src="<?= base_url() ?>portal/img/menu-7.jpg" alt="" style="width: 80px;">
+                                        <img class="flex-shrink-0 img-fluid rounded" src="portal/img/menu-7.jpg" alt="" style="width: 80px;">
                                         <div class="w-100 d-flex flex-column text-start ps-4">
                                             <h5 class="d-flex justify-content-between border-bottom pb-2">
                                                 <span>Chicken Burger</span>
@@ -753,7 +587,7 @@
                                 </div>
                                 <div class="col-lg-6">
                                     <div class="d-flex align-items-center">
-                                        <img class="flex-shrink-0 img-fluid rounded" src="<?= base_url() ?>portal/img/menu-8.jpg" alt="" style="width: 80px;">
+                                        <img class="flex-shrink-0 img-fluid rounded" src="portal/img/menu-8.jpg" alt="" style="width: 80px;">
                                         <div class="w-100 d-flex flex-column text-start ps-4">
                                             <h5 class="d-flex justify-content-between border-bottom pb-2">
                                                 <span>Chicken Burger</span>
@@ -769,7 +603,7 @@
                             <div class="row g-4">
                                 <div class="col-lg-6">
                                     <div class="d-flex align-items-center">
-                                        <img class="flex-shrink-0 img-fluid rounded" src="<?= base_url() ?>portal/img/menu-1.jpg" alt="" style="width: 80px;">
+                                        <img class="flex-shrink-0 img-fluid rounded" src="portal/img/menu-1.jpg" alt="" style="width: 80px;">
                                         <div class="w-100 d-flex flex-column text-start ps-4">
                                             <h5 class="d-flex justify-content-between border-bottom pb-2">
                                                 <span>Chicken Burger</span>
@@ -781,7 +615,7 @@
                                 </div>
                                 <div class="col-lg-6">
                                     <div class="d-flex align-items-center">
-                                        <img class="flex-shrink-0 img-fluid rounded" src="<?= base_url() ?>portal/img/menu-2.jpg" alt="" style="width: 80px;">
+                                        <img class="flex-shrink-0 img-fluid rounded" src="portal/img/menu-2.jpg" alt="" style="width: 80px;">
                                         <div class="w-100 d-flex flex-column text-start ps-4">
                                             <h5 class="d-flex justify-content-between border-bottom pb-2">
                                                 <span>Chicken Burger</span>
@@ -793,7 +627,7 @@
                                 </div>
                                 <div class="col-lg-6">
                                     <div class="d-flex align-items-center">
-                                        <img class="flex-shrink-0 img-fluid rounded" src="<?= base_url() ?>portal/img/menu-3.jpg" alt="" style="width: 80px;">
+                                        <img class="flex-shrink-0 img-fluid rounded" src="portal/img/menu-3.jpg" alt="" style="width: 80px;">
                                         <div class="w-100 d-flex flex-column text-start ps-4">
                                             <h5 class="d-flex justify-content-between border-bottom pb-2">
                                                 <span>Chicken Burger</span>
@@ -805,7 +639,7 @@
                                 </div>
                                 <div class="col-lg-6">
                                     <div class="d-flex align-items-center">
-                                        <img class="flex-shrink-0 img-fluid rounded" src="<?= base_url() ?>portal/img/menu-4.jpg" alt="" style="width: 80px;">
+                                        <img class="flex-shrink-0 img-fluid rounded" src="portal/img/menu-4.jpg" alt="" style="width: 80px;">
                                         <div class="w-100 d-flex flex-column text-start ps-4">
                                             <h5 class="d-flex justify-content-between border-bottom pb-2">
                                                 <span>Chicken Burger</span>
@@ -817,7 +651,7 @@
                                 </div>
                                 <div class="col-lg-6">
                                     <div class="d-flex align-items-center">
-                                        <img class="flex-shrink-0 img-fluid rounded" src="<?= base_url() ?>portal/img/menu-5.jpg" alt="" style="width: 80px;">
+                                        <img class="flex-shrink-0 img-fluid rounded" src="portal/img/menu-5.jpg" alt="" style="width: 80px;">
                                         <div class="w-100 d-flex flex-column text-start ps-4">
                                             <h5 class="d-flex justify-content-between border-bottom pb-2">
                                                 <span>Chicken Burger</span>
@@ -829,7 +663,7 @@
                                 </div>
                                 <div class="col-lg-6">
                                     <div class="d-flex align-items-center">
-                                        <img class="flex-shrink-0 img-fluid rounded" src="<?= base_url() ?>portal/img/menu-6.jpg" alt="" style="width: 80px;">
+                                        <img class="flex-shrink-0 img-fluid rounded" src="portal/img/menu-6.jpg" alt="" style="width: 80px;">
                                         <div class="w-100 d-flex flex-column text-start ps-4">
                                             <h5 class="d-flex justify-content-between border-bottom pb-2">
                                                 <span>Chicken Burger</span>
@@ -841,7 +675,7 @@
                                 </div>
                                 <div class="col-lg-6">
                                     <div class="d-flex align-items-center">
-                                        <img class="flex-shrink-0 img-fluid rounded" src="<?= base_url() ?>portal/img/menu-7.jpg" alt="" style="width: 80px;">
+                                        <img class="flex-shrink-0 img-fluid rounded" src="portal/img/menu-7.jpg" alt="" style="width: 80px;">
                                         <div class="w-100 d-flex flex-column text-start ps-4">
                                             <h5 class="d-flex justify-content-between border-bottom pb-2">
                                                 <span>Chicken Burger</span>
@@ -853,7 +687,7 @@
                                 </div>
                                 <div class="col-lg-6">
                                     <div class="d-flex align-items-center">
-                                        <img class="flex-shrink-0 img-fluid rounded" src="<?= base_url() ?>portal/img/menu-8.jpg" alt="" style="width: 80px;">
+                                        <img class="flex-shrink-0 img-fluid rounded" src="portal/img/menu-8.jpg" alt="" style="width: 80px;">
                                         <div class="w-100 d-flex flex-column text-start ps-4">
                                             <h5 class="d-flex justify-content-between border-bottom pb-2">
                                                 <span>Chicken Burger</span>
@@ -869,7 +703,7 @@
                             <div class="row g-4">
                                 <div class="col-lg-6">
                                     <div class="d-flex align-items-center">
-                                        <img class="flex-shrink-0 img-fluid rounded" src="<?= base_url() ?>portal/img/menu-1.jpg" alt="" style="width: 80px;">
+                                        <img class="flex-shrink-0 img-fluid rounded" src="portal/img/menu-1.jpg" alt="" style="width: 80px;">
                                         <div class="w-100 d-flex flex-column text-start ps-4">
                                             <h5 class="d-flex justify-content-between border-bottom pb-2">
                                                 <span>Chicken Burger</span>
@@ -881,7 +715,7 @@
                                 </div>
                                 <div class="col-lg-6">
                                     <div class="d-flex align-items-center">
-                                        <img class="flex-shrink-0 img-fluid rounded" src="<?= base_url() ?>portal/img/menu-2.jpg" alt="" style="width: 80px;">
+                                        <img class="flex-shrink-0 img-fluid rounded" src="portal/img/menu-2.jpg" alt="" style="width: 80px;">
                                         <div class="w-100 d-flex flex-column text-start ps-4">
                                             <h5 class="d-flex justify-content-between border-bottom pb-2">
                                                 <span>Chicken Burger</span>
@@ -893,7 +727,7 @@
                                 </div>
                                 <div class="col-lg-6">
                                     <div class="d-flex align-items-center">
-                                        <img class="flex-shrink-0 img-fluid rounded" src="<?= base_url() ?>portal/img/menu-3.jpg" alt="" style="width: 80px;">
+                                        <img class="flex-shrink-0 img-fluid rounded" src="portal/img/menu-3.jpg" alt="" style="width: 80px;">
                                         <div class="w-100 d-flex flex-column text-start ps-4">
                                             <h5 class="d-flex justify-content-between border-bottom pb-2">
                                                 <span>Chicken Burger</span>
@@ -905,7 +739,7 @@
                                 </div>
                                 <div class="col-lg-6">
                                     <div class="d-flex align-items-center">
-                                        <img class="flex-shrink-0 img-fluid rounded" src="<?= base_url() ?>portal/img/menu-4.jpg" alt="" style="width: 80px;">
+                                        <img class="flex-shrink-0 img-fluid rounded" src="portal/img/menu-4.jpg" alt="" style="width: 80px;">
                                         <div class="w-100 d-flex flex-column text-start ps-4">
                                             <h5 class="d-flex justify-content-between border-bottom pb-2">
                                                 <span>Chicken Burger</span>
@@ -917,7 +751,7 @@
                                 </div>
                                 <div class="col-lg-6">
                                     <div class="d-flex align-items-center">
-                                        <img class="flex-shrink-0 img-fluid rounded" src="<?= base_url() ?>portal/img/menu-5.jpg" alt="" style="width: 80px;">
+                                        <img class="flex-shrink-0 img-fluid rounded" src="portal/img/menu-5.jpg" alt="" style="width: 80px;">
                                         <div class="w-100 d-flex flex-column text-start ps-4">
                                             <h5 class="d-flex justify-content-between border-bottom pb-2">
                                                 <span>Chicken Burger</span>
@@ -929,7 +763,7 @@
                                 </div>
                                 <div class="col-lg-6">
                                     <div class="d-flex align-items-center">
-                                        <img class="flex-shrink-0 img-fluid rounded" src="<?= base_url() ?>portal/img/menu-6.jpg" alt="" style="width: 80px;">
+                                        <img class="flex-shrink-0 img-fluid rounded" src="portal/img/menu-6.jpg" alt="" style="width: 80px;">
                                         <div class="w-100 d-flex flex-column text-start ps-4">
                                             <h5 class="d-flex justify-content-between border-bottom pb-2">
                                                 <span>Chicken Burger</span>
@@ -941,7 +775,7 @@
                                 </div>
                                 <div class="col-lg-6">
                                     <div class="d-flex align-items-center">
-                                        <img class="flex-shrink-0 img-fluid rounded" src="<?= base_url() ?>portal/img/menu-7.jpg" alt="" style="width: 80px;">
+                                        <img class="flex-shrink-0 img-fluid rounded" src="portal/img/menu-7.jpg" alt="" style="width: 80px;">
                                         <div class="w-100 d-flex flex-column text-start ps-4">
                                             <h5 class="d-flex justify-content-between border-bottom pb-2">
                                                 <span>Chicken Burger</span>
@@ -953,7 +787,7 @@
                                 </div>
                                 <div class="col-lg-6">
                                     <div class="d-flex align-items-center">
-                                        <img class="flex-shrink-0 img-fluid rounded" src="<?= base_url() ?>portal/img/menu-8.jpg" alt="" style="width: 80px;">
+                                        <img class="flex-shrink-0 img-fluid rounded" src="portal/img/menu-8.jpg" alt="" style="width: 80px;">
                                         <div class="w-100 d-flex flex-column text-start ps-4">
                                             <h5 class="d-flex justify-content-between border-bottom pb-2">
                                                 <span>Chicken Burger</span>
@@ -1040,7 +874,7 @@
                         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                     </div>
                     <div class="modal-body">
-                        <!-- 16:9 aspect ratio -->
+                        <!-- \\16:9 aspect ratio -->
         <!-- <div class="ratio ratio-16x9">
                             <iframe class="embed-responsive-item" src="" id="video" allowfullscreen allowscriptaccess="always"
                                 allow="autoplay"></iframe>
@@ -1057,16 +891,16 @@
                     <div class="col-lg-6">
                         <div class="row g-3">
                             <div class="col-6 text-start">
-                                <img class="img-fluid rounded w-100 wow zoomIn" data-wow-delay="0.1s" src="<?= base_url() ?>portal/img/satudanu.png">
+                                <img class="img-fluid rounded w-100 wow zoomIn" data-wow-delay="0.1s" src="portal/img/satudanu.png">
                             </div>
                             <div class="col-6 text-start">
-                                <img class="img-fluid rounded w-75 wow zoomIn" data-wow-delay="0.3s" src="<?= base_url() ?>portal/img/rawapening.jpg" style="margin-top: 25%;">
+                                <img class="img-fluid rounded w-75 wow zoomIn" data-wow-delay="0.3s" src="portal/img/rawapening.jpg" style="margin-top: 25%;">
                             </div>
                             <div class="col-6 text-end">
-                                <img class="img-fluid rounded w-75 wow zoomIn" data-wow-delay="0.5s" src="<?= base_url() ?>portal/img/gedongsongo.jpeg">
+                                <img class="img-fluid rounded w-75 wow zoomIn" data-wow-delay="0.5s" src="portal/img/gedongsongo.jpeg">
                             </div>
                             <div class="col-6 text-end">
-                                <img class="img-fluid rounded w-100 wow zoomIn" data-wow-delay="0.7s" src="<?= base_url() ?>portal/img/semilir.png">
+                                <img class="img-fluid rounded w-100 wow zoomIn" data-wow-delay="0.7s" src="portal/img/semilir.png">
                             </div>
                         </div>
                     </div>
@@ -1213,19 +1047,19 @@
     <!-- JavaScript Libraries -->
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
-    <script src="<?= base_url() ?>portal/lib/wow/wow.min.js"></script>
-    <script src="<?= base_url() ?>portal/lib/easing/easing.min.js"></script>
-    <script src="<?= base_url() ?>portal/lib/waypoints/waypoints.min.js"></script>
-    <script src="<?= base_url() ?>portal/lib/counterup/counterup.min.js"></script>
-    <script src="<?= base_url() ?>portal/lib/owlcarousel/owl.carousel.min.js"></script>
-    <script src="<?= base_url() ?>portal/lib/tempusdominus/js/moment.min.js"></script>
-    <script src="<?= base_url() ?>portal/lib/tempusdominus/js/moment-timezone.min.js"></script>
-    <script src="<?= base_url() ?>portal/lib/tempusdominus/js/tempusdominus-bootstrap-4.min.js"></script>
-    <!-- <script src="<?= base_url() ?>script.js"></script> -->
+    <script src="portal/lib/wow/wow.min.js"></script>
+    <script src="portal/lib/easing/easing.min.js"></script>
+    <script src="portal/lib/waypoints/waypoints.min.js"></script>
+    <script src="portal/lib/counterup/counterup.min.js"></script>
+    <script src="portal/lib/owlcarousel/owl.carousel.min.js"></script>
+    <script src="portal/lib/tempusdominus/js/moment.min.js"></script>
+    <script src="portal/lib/tempusdominus/js/moment-timezone.min.js"></script>
+    <script src="portal/lib/tempusdominus/js/tempusdominus-bootstrap-4.min.js"></script>
+    <!-- <script src="script.js"></script> -->
 
     <!-- <script src="visitor-counter.js"></script> -->
     <!-- Template Javascript -->
-    <script src="<?= base_url() ?>portal/js/main.js"></script>
+    <script src="portal/js/main.js"></script>
 
     <script>
         // // Get the modal
@@ -1305,32 +1139,6 @@
 
         
     </script>
-   <script>
-  document.addEventListener('DOMContentLoaded', function() {
-    // Ambil elemen-elemen PDF dan daftar kategori
-    var pdfItems = document.querySelectorAll('.pdf-item');
-    var categoryList = document.querySelectorAll('#category-list li');
-
-    // Tambahkan event listener untuk setiap elemen list kategori
-    categoryList.forEach(function(category) {
-      category.addEventListener('click', function() {
-        var selectedCategory = category.getAttribute('data-bs-category');
-
-        // Sembunyikan semua elemen PDF
-        pdfItems.forEach(function(item) {
-          item.style.display = 'none';
-        });
-
-        // Tampilkan elemen PDF yang sesuai dengan kategori yang dipilih
-        pdfItems.forEach(function(item) {
-          if (item.getAttribute('data-bs-category') === selectedCategory) {
-            item.style.display = 'block';
-          }
-        });
-      });
-    });
-  });
-</script>
 
 </body>
 
