@@ -9,5 +9,4 @@ class InfografiCategory extends Model
     protected $table = 'infografi_categories';
     protected $primaryKey = 'id';
     protected $allowedFields = ['name'];
-
 }

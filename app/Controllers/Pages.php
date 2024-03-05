@@ -8,7 +8,7 @@ use CodeIgniter\API\ResponseTrait;
 use Config\Services;
 use Kint\Zval\Value;
 use App\Models\VisitorModel;
-use CodeIgniter\HTTP\Request;
+
 
 class Pages extends BaseController
 {
@@ -79,7 +79,6 @@ class Pages extends BaseController
         $infografis = $model->findAll();
         $model2 = new InfografiCategory();
         $infografi_categories = $model2->findAll();
-
 
         $data = [
             'title' => 'Home | Satu Data Kab. Semarang',
