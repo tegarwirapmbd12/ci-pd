@@ -30,6 +30,50 @@
 
           
   </section>
+  
+  
+  <!-- Bordered table start -->
+  <section class="section">
+        <div class="row" id="table-bordered">
+            <div class="col-12">
+                <div class="card">
+                    <div class="card-header">
+                        <h4 class="card-title">Bordered table</h4>
+                    </div>
+                    <div class="card-content">
+                        <div class="card-body">
+                            <p class="card-text">Add <code>.table-bordered</code> for borders on all sides of the table
+                                and
+                                cells. For
+                                Inverse Dark Table, add <code>.table-dark</code> along with
+                                <code>.table-bordered</code>.
+                            </p>
+                        </div>
+                        <!-- table bordered -->
+                        <div class="table-responsive">
+                        <table class="table table-bordered mt-5" id="example">
+                                <thead>
+                                    <tr>
+                                        <th scope="col" class="text-center">NO</th>
+                                        <th scope="col" class="text-center">Kategori</th>
+                                    </tr>
+                                    </tr>
+                                </thead>
+                                <?php $i = 1; ?>
+                                <tbody>
+                                        <tr>
+                                            <td class="text-center"><?= $i++; ?></td>
+                                            <td class="text-center"><a href="/pencarian/tabel">Bawang</a></td>
+                                        </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Bordered table end -->
 </div>
 
 <script>

@@ -177,6 +177,26 @@ class Pages extends BaseController
             return 'Failed to fetch data';
         }
     }
+    public function tabel()
+    {
+        // $judul['title'] = "tabel";
+        // $judul['activeMenu'] = "tabel";
+        // $test = 'bawang';
+
+
+        // $client = Services::curlrequest();
+        // $url = "https://statistikkominfo.semarangkab.go.id/api/$test/0/luas-panen.json";
+        // $response = $client->request('GET', $url);
+
+        // if ($response->getStatusCode() == 200) {
+        //     $data['tabel']  = json_decode($response->getBody(), true);
+
+        //     return view('home/tabel', ['data' => $data, 'judul' => $judul]);
+        // } else {
+        //     return 'Failed to fetch data';
+        // }
+        return view('home/tabel');
+    }
 
 
 
@@ -284,9 +304,22 @@ class Pages extends BaseController
     
     public function pencarian()
     {
-        return view('home/pencarian');
-    }
+        $judul['title'] = "pencarian";
+        $judul['activeMenu'] = "pencarian";
 
+
+        $client = Services::curlrequest();
+        $url = "https://webapi.bps.go.id/v1/api/interoperabilitas/datasource/sensus/id/41/kegiatan/st2023/wilayah_sensus/3322/dataset/208/key/2f456222b4c631bcc834296e2aad3fa3/";
+        $response = $client->request('GET', $url);
+
+        if ($response->getStatusCode() == 200) {
+            $data['pencarian']  = json_decode($response->getBody(), true);
+
+            return view('home/pencarian', ['data' => $data, 'judul' => $judul]);
+        } else {
+            return 'Failed to fetch data';
+        }
+    }
     public function bps()
     {
         return view('home/bps');

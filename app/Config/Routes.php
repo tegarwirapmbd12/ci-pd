@@ -13,6 +13,7 @@ $routes->get('/rpjmd', 'Pages::rpjmd');
 $routes->get('/lppd', 'Pages::lppd');
 $routes->get('/spm', 'Pages::spm');
 $routes->get('/pencarian', 'Pages::pencarian');
+$routes->get('/pencarian/tabel', 'Pages::tabel');
 
 
 $routes->get('/bps', 'Pages::bps');
